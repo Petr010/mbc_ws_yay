@@ -10,6 +10,8 @@ Get Python 3, Arduino IDE, ROS2-hu, NAV2
   ROS2: https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
   NAV2: https://navigation.ros.org/development_guides/build_docs/index.html 
 
+Unzip src
+
 Navigate to src -> Ros_Arduino_bridge and load to arduino (change motor pins if needed in motor_driver.h)
   (reference) https://github.com/joshnewans/ros_arduino_bridge
   Launch arduino IDE and locate where arduino pops up exp) /dev/USB0 *note, make sure ch340 drivers are installed
